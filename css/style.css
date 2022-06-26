@@ -9,3 +9,43 @@ html, body {
 .section {
     min-height: 100vh;
 }
+.section-padding {
+    padding-top: 70px;
+}
+.nav-link{
+    color: black !important;
+    font-weight: bold;
+}
+.big-font{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+}
+.bg-custom {
+    background-color: rgb(220, 200, 175);
+}
+.photo {
+    background-image: url('../img/landing.png');
+    background-size: 500px 700px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+.pt-custom {
+    padding-top: 100px;
+}
+.btn-orange {
+    border-radius: 0 !important;
+    background-color: orangered;
+    padding: 15px 30px;
+}
+
+
+@media screen and (max-width: 789px)  {
+    .btn-outline-dark {
+        display: none;
+    }
+}
