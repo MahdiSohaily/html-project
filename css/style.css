@@ -6,6 +6,9 @@ html {
 html, body {
     min-height: 100vh;
 }
+#welcome-section {
+    height: 100vh;
+}
 .section {
     min-height: 100vh;
 }
@@ -34,6 +37,14 @@ html, body {
     background-position: bottom;
 
 }
+.profile {
+    height: 300px;
+    width: 300px;
+}
+.card-img-top {
+    width: 100%;
+    height: 300px;
+}
 .pt-custom {
     padding-top: 100px;
 }
@@ -41,6 +52,12 @@ html, body {
     border-radius: 0 !important;
     background-color: orangered;
     padding: 15px 30px;
+}
+.btn-outline-dark {
+    color: black !important;
+}
+.btn-outline-dark:hover{
+    background-color: white;
 }
 
 

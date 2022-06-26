@@ -15,9 +15,9 @@
 <body>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   <div class="warapper">
-    <div class="section bg-info section-padding">
+    <section id="welcome-section" class="section bg-info section-padding">
       <!-- Main navbar start-->
-      <nav class="navbar navbar-expand-md bg-light navbar-light py-3 fixed-top border-bottom">
+      <nav id="navbar" class="navbar navbar-expand-md bg-light navbar-light py-3 fixed-top border-bottom">
         <!-- Brand -->
         <a class="navbar-brand pl-5" href="#">Microverse</a>
 
@@ -30,19 +30,19 @@
         <div class="collapse navbar-collapse  justify-content-center" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="#welcome-section">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Works</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Project</a>
+              <a class="nav-link" href="#projects">Project</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#services">Services</a>
             </li>
           </ul>
         </div>
@@ -68,53 +68,103 @@
               </p>
             </div>
             <div class="p-5">
-              <button class="btn btn-orange text-white">Hire Me</button>
-            </div>
-            <div class="row">
-              <div class="col-12 bg-dark">
-                hhh
-              </div>
+              <a target="_blank" id="profile-link" href="https://github.com/MahdiSohaily" class="btn btn-orange text-white">Hire Me</a>
             </div>
           </div>
           <div class="col-md-6 section bg-custom d-xs-none photo"></div>
         </div>
       </div>
       <!--Landing banner End-->
+    </section>
+    <section id="about" class="section bg-dark text-white">
+      <h1 class="text-center pt-custom">Read about Me</h1>
+      <div class="container-fluid pt-5">
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-6">
+            <p class="text-center">
+              I'm a technical developer with a passion for creating clean and simple interfaces. I enjoy coding and
+              building
+              applications that make life easy
+              I'm a technical developer with a passion for creating clean and simple interfaces. I enjoy coding and
+              building
+              applications that make life easy
+              I'm a technical developer with a passion for creating clean and simple interfaces. I enjoy coding and
+              building
+              applications that make life easy
+              <br>
+              <img class="rounded-circle p-3 profile"
+                src="https://avatars.githubusercontent.com/u/50738922?s=400&u=5eafed2d7386e7ca45efc224da8287531697e2b9&v=4"
+                alt="" srcset="">
+              <img class="rounded-circle p-3 profile" src="https://avatars.githubusercontent.com/u/47469465?v=4" alt=""
+                srcset="">
+            </p>
+
+          </div>
+          <div class="col-md-3"></div>
+        </div>
+      </div>
+  </div>
+  <section id="projects" class="section">
+    <h1 class="text-center pt-custom">My Recent Projects</h1>
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+              alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title project-tile">Music-Player</h4>
+              <p class="card-text">t is a long established fact that a reader will be distracted by the readable content
+                of a page when looking at its layout.</p>
+              <a href="https://github.com/MahdiSohaily/Music-Player" class="btn btn-primary">Go to project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"
+              alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title project-tile">Music-Player</h4>
+              <p class="card-text">t is a long established fact that a reader will be distracted by the readable content
+                of a page when looking at its layout.</p>
+              <a href="https://github.com/MahdiSohaily/Music-Player" class="btn btn-primary">Go to project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+              alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title project-tile">Music-Player</h4>
+              <p class="card-text">t is a long established fact that a reader will be distracted by the readable content
+                of a page when looking at its layout.</p>
+              <a href="https://github.com/MahdiSohaily/Music-Player" class="btn btn-primary">Go to project</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="section"></div>
-    <div class="section footer rounded-0 float-right">
-       <!-- Contact -->
+  </section>
+  <section class="section footer rounded-0 float-right">
+  </section>
+  <!-- Contact -->
   <section id="contact" class="contact-section">
     <div class="contact-section-header">
       <h2 id="lets">Let's work together...</h2>
       <p id="how">How do you take your coffee?</p>
     </div>
     <div class="contact-links">
-      <a
-        href="https://facebook.com/freecodecamp"
-        target="_blank"
-        class="btn contact-details"
-        ><i class="fab fa-facebook-square"></i> Facebook</a
-      >
-      <a
-        id="profile-link"
-        href="https://github.com/freecodecamp"
-        target="_blank"
-        class="btn contact-details"
-        ><i class="fab fa-github"></i> GitHub</a
-      >
-      <a
-        href="https://twitter.com/freecodecamp"
-        target="_blank"
-        class="btn contact-details"
-        ><i class="fab fa-twitter"></i> Twitter</a
-      >
-      <a href="mailto:davidjeudy2@gmail.com" class="btn contact-details"
-        ><i class="fas fa-at"></i> Send a mail</a
-      >
-      <a href="tel:50934359623" class="btn contact-details"
-        ><i class="fas fa-mobile-alt"></i> Call me</a
-      >
+      <a href="https://facebook.com/freecodecamp" target="_blank" class="btn contact-details"><i
+          class="fab fa-facebook-square"></i> Facebook</a>
+      <a id="profile-link" href="https://github.com/freecodecamp" target="_blank" class="btn contact-details"><i
+          class="fab fa-github"></i> GitHub</a>
+      <a href="https://twitter.com/freecodecamp" target="_blank" class="btn contact-details"><i
+          class="fab fa-twitter"></i> Twitter</a>
+      <a href="mailto:davidjeudy2@gmail.com" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a>
+      <a href="tel:50934359623" class="btn contact-details"><i class="fas fa-mobile-alt"></i> Call me</a>
     </div>
   </section>
 
@@ -124,23 +174,26 @@
     </p>
     <p>
       &copy; Created for freecodecamp
-    </a>
+      </a>
     </p>
   </footer>
-    </div>
   </div>
 
 
 
- 
 
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
->>>>>>> 380d3776117efb0520e7e05e8f2a78605242c603
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
   <script src="js/index.js"></script>
 </body>
 
 </html>
->>>>>>> c550333b7c1b049ef43ebbc7bffe9c994deb16be
