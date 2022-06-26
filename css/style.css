@@ -1,0 +1,11 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    min-height: 100vh;
+}
+.section {
+    min-height: 100vh;
+}
