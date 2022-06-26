@@ -44,8 +44,80 @@ html, body {
 }
 
 
+/* David Styles */
+/* Contact */
+
+#lets{
+    color: white;
+}
+
+#how{
+    color: white;
+}
+.btn{
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+.contact-section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: rgb(0, 0, 163);
+  }
+  
+  .contact-section-header > h2 {
+    font-size: 6rem;
+  }
+
+  .contact-section-header > p {
+    font-style: italic;
+  }
+  
+  .contact-links {
+    display: flex;
+    max-width: 950px;
+    margin-top: 6rem;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    flex-wrap: wrap;
+  }
+
+  .contact-details {
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+  }
+  
+  
+
+/* footer */
+
+footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: white;
+    border-top: 4px solid white;
+  }
+  
+  footer > p {
+    margin: 2rem;
+  }
+  
+  footer i {
+    vertical-align: middle;
+  }
+
 @media screen and (max-width: 789px)  {
     .btn-outline-dark {
         display: none;
     }
 }
+
