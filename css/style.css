@@ -9,6 +9,23 @@ html, body {
 .section {
     min-height: 100vh;
 }
+/* Contact */
+
+.contact-section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: gray;
+  }
+  
+  .contact-section-header > h2 {
+    font-size: 6rem;
+  }
 
 /* footer */
 
